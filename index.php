@@ -11,7 +11,15 @@
 
 
 <body>
-<?php session_start() ?>
+<?php
+// Initialize the session
+session_start();
+
+if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
+    header("location: login.php");
+    exit;
+}
+?>
 <?php
 
   header('index.php?page=home');

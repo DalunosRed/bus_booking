@@ -8,6 +8,7 @@
           <li class="nav-home"><a href="./index.php?page=home">Home</a></li>
            <li class="nav-schedule"><a href="./index.php?page=schedule">Schedule</a></li>
            <li ><a href="./admin.php">Admin</a></li>
+           <li ><a href="./login.php">Logout</a></li>
              
               
         </ul>
