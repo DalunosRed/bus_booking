@@ -20,7 +20,7 @@
 									<th class="text-center">#</th>
 									<th class="text-center">Bus No.</th>
 									<th class="text-center">Bus Name</th>
-									<th class="text-center">Action</th>
+									<th class="text-center">Actions</th>
 								</tr>
 							</thead>
 							<tbody>
