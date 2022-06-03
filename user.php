@@ -37,7 +37,7 @@
 </section>
 <script>
 	$('#new_user').click(function(){
-		uni_modal('Add New Bus','manage_user.php')
+		uni_modal('Add New Account','adminreg.php')
 	})
 	window.load_user = function(){
 		$('#user-field').dataTable().fnDestroy();
